@@ -10,7 +10,7 @@ Further information about Bitcoin Core is available [here](https://github.com/bi
 ## TL;DR
 
 ```console
-helm repo add bitcoind https://chrisrun.github.io/bitcoind-chart/
+helm repo add bitcoind https://will-mitchell-org.github.io/bitcoind-chart/
 helm upgrade --install bitcoind bitcoind/bitcoind -n bitcoind --version 1.1.0 --create-namespace
 ```
 
@@ -31,7 +31,7 @@ This chart bootstraps a [bitcoin](https://github.com/bitcoin/bitcoin) deployment
 To install the chart with the release name `bitcoind`
 
 ```bash
-$  helm repo add bitcoind https://chrisrun.github.io/bitcoind-chart/
+$  helm repo add bitcoind https://will-mitchell-org.github.io/bitcoind-chart/
 $  helm upgrade --install bitcoind bitcoind/bitcoind -n bitcoind --create-namespace
 ```
 
